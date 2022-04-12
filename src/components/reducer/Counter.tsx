@@ -10,7 +10,7 @@ type UpdateAction = {
 }
 
 type ResetAction = {
-  type: 'Reset';
+  type: 'reset';
 }
 
 type CounterAction = UpdateAction | ResetAction;
